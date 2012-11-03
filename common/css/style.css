@@ -1,0 +1,119 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+a{
+	font-size:12px;
+ font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+ color:#000000;
+}
+a:hover{
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+	color:#0000FF;
+}
+html,
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin:0px;
+	padding:0px;
+	height:100%;
+ background:#F1F1F1;
+}
+.main {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width:100%;
+}
+.container {
+	min-height:100%;
+	position:relative;
+	z-index:1;
+	width:98%
+}
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height:53px; /* Height of the header */	
+	padding:10px;
+  background: #2C2C2C;
+  width:100%;
+}
+.content {
+  padding: 10px;
+  padding-top:10px;
+  padding-right:10px;
+	 padding-bottom:25px;	/* Height of the footer */	
+  width:95%;
+}
+.loginform ul li input{
+  color: black; 
+  border: 1; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+  width: 95%;
+}
+.formEvent ul li input{
+  color: black; 
+  border: 1; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+  width: 95%;
+}
+.formEvent ul li label{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+}
+.submitbutton {
+  background-color: #D83B38;
+  background-image: -webkit-linear-gradient(top, #E57A78,#DC504D 50%,#D83B38 51%,#CE2C28);
+  color: white;
+  width: 95%;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+}
+select{
+  color: black; 
+  border: 1; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+  width: 95%;
+}
+textarea{
+  width: 95%;
+  color: black; 
+  border: 1; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+}
+.selectEvent{
+  width: 95%;
+  color: black; 
+  border: 1; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size:20px;
+}
+.footer {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	height:25px;			/* Height of the footer */
+	padding:10px;
+  background: #2C2C2C;  
+}
+.footer_nav {
+color:#FFFFFF;
+background:#2C2C2C;
+width:100%;
+}
+.footer_nav a{
+text-decoration:none;
+color:#ffffff;
+}
+.text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin-left:2px;
+}
